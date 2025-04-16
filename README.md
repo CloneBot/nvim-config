@@ -6,13 +6,15 @@ Telescope should have `ripgrep` installed <https://github.com/BurntSushi/ripgrep
 
 # Installation
 
-TBD: map to nvim config dir
+```sh
+git clone https://github.com/CloneBot/nvim-config "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
 
 # TODO
 
-* enable lualine
+* Enable Lualine
 * enable indent_blankline
-* add gitsigns
-* add additional telescope keymappings
+* Add gitsigns
+* Add additional telescope keymappings.
 
-look at [kickstart](https://github.com/nvim-lua/kickstart.nvim) for more ideas
+look at [kickstart](https://github.com/nvim-lua/kickstart.nvim) for more ideas.
